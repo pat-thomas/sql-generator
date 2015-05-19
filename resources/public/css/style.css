@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inconsolata";
+}
+
+button {
+  border: none;
+  padding: 8px;
+  font-size: 0.85em;
+  margin-left: 8px;
+  margin-bottom: 4px;
+  margin-top: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.row {
+  margin-bottom: 15px;
+}
