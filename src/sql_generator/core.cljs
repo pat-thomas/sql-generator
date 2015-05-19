@@ -1,10 +1,9 @@
 (ns sql-generator.core
-  (:require [om.core             :as om]
-            [om.dom              :as dom]
-            [sql-generator.components.row :as row-cmp]
+  (:require [om.core                                :as om]
+            [om.dom                                 :as dom]
+            [sql-generator.components.row           :as row-cmp]
             [sql-generator.components.configuration :as configuration-cmp]
-            [sql-generator.state :as state]
-            )
+            [sql-generator.state                    :as state])
   (:require-macros [om-utils.core :refer [defcomponent]]))
 
 (enable-console-print!)
